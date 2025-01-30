@@ -15,3 +15,16 @@ proxies:
     headers:
       Host: id-biznet001.beritanect.click
   udp: true
+- name: Trojan-ali-WS
+  type: trojan
+  server: 104.22.20.245
+  port: 443
+  password: 0686b9ea-8c9f-45d9-9003-a585268b2066
+  udp: true
+  sni: vip-5.serveroke.us.kg
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ali/trojan-ws
+    headers:
+      Host: vip-5.serveroke.us.kg
