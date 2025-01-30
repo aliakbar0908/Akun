@@ -1,0 +1,17 @@
+proxies:
+- name: VMess_TLS
+  server: 104.22.20.245
+  port: 443
+  type: vmess
+  uuid: 59561940-88ad-5d7f-b9cf-6789091ee642
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-biznet001.beritanect.click
+  network: ws
+  ws-opts:
+    path: /xrayvmess
+    headers:
+      Host: id-biznet001.beritanect.click
+  udp: true
