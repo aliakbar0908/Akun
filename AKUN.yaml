@@ -28,3 +28,19 @@ proxies:
     path: /ali/trojan-ws
     headers:
       Host: vip-5.serveroke.us.kg
+- name: VMess_TLS_im3
+  server: 104.17.240.25
+  port: 443
+  type: vmess
+  uuid: 59561940-88ad-5d7f-b9cf-6789091ee642
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-biznet001.beritanect.click
+  network: ws
+  ws-opts:
+    path: /xrayvmess
+    headers:
+      Host: id-biznet001.beritanect.click
+  udp: true
